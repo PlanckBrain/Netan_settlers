@@ -6,22 +6,44 @@
     margin-bottom: -26px;
 }
 
-.hexrow .hex .top {
+
+
+.hex .topland {
     width: 0;
     border-bottom: 30px solid #6C6;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
 
-.hex .middle {
+.hex .middleland {
     width: 104px;
     height: 60px;
     background: #6C6;
 }
 
-.hex .bottom {
+.hex .bottomland {
     width: 0;
     border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hex .topwater {
+    width: 0;
+    border-bottom: 30px solid #66C;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.hex .middlewater {
+    width: 104px;
+    height: 60px;
+    background: #66C;
+}
+
+.hex .bottomwater {
+    width: 0;
+    border-top: 30px solid #66C;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
@@ -32,4 +54,18 @@
 
 .even {
     margin-left: 53px;
+}
+
+.land {
+    border-color: #6C6;
+}
+
+.watertop {
+    border-bottom: blue;
+}
+.watermiddle {
+    background: blue;
+}
+.waterbottom {
+    border-top: blue;
 }
