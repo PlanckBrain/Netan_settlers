@@ -1,4 +1,52 @@
+.inLine {
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
 
+.inLine2 {
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.selected {
+    opacity: 0.6;
+}
+
+.shiftRight {
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+
+.bottomButton {
+    margin-left: 100px;
+}
+
+.rEndClicked {
+    background-color: #c0392b;
+    opacity: 0.5;
+}
+
+.bEndClicked {
+    background-color: #2980b9;
+    opacity: 0.5;
+}
+
+#redTurn {
+    background-color: #c0392b;
+    text-align: center;
+}
+
+#blueTurn {
+    background-color: #2980b9;
+    text-align: center;
+}
+
+.faded {
+    opacity: 0.5;
+}
 
 .hex {
     float: left;
