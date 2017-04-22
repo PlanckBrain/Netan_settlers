@@ -4,15 +4,19 @@
         <title></title>
         <link rel="stylesheet" href="Base.css" type="text/css"/>
         
-        <h1>Netan</h1>
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="Base.js"></script>
+        
+        <h1 id="title">Netan</h1>
         <p id="AuthorInfo">By Eddlememes (Duncan Reeves, Cory Eddleman, Kody Wells)</p>
     </head>
     <body>
-            <div class="hexrow">
+        <!--First Row-->
+            <div class="hexrow even">
                 <div class="hex">
-                    <div class="topwater"></div>    <!-- T-->
-                    <div class="middlewater"></div>  <!-- M-->
-                    <div class="bottomwater"></div>  <!-- B-->
+                    <div class="topland" id="t1"></div>    <!-- T-->
+                    <div class="middleland" id="1" onmouseover="DarkenThis(1)" onmouseout="unDarkenThis(1)"></div>  <!-- M-->
+                    <div class="bottomland" id="b1"></div>  <!-- B-->
                 </div>
                 
                 <div class ="hex">
@@ -22,26 +26,118 @@
                 </div>
                 
                 <div class="hex">
+                    <div class="topwater"></div>    <!-- T-->
+                    <div class="middlewater"></div>  <!-- M-->
+                    <div class="bottomwater"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
                     <div class="topland"></div>    <!-- T-->
-                    <div class="middleland"></div>  <!-- M-->
+                    <div onclick="click(2)" class="middleland" id="2"></div>  <!-- M-->
                     <div class="bottomland"></div>  <!-- B-->
                 </div>
             </div>
+            <!--Second Row-->
+            <div class="hexrow">
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(3)" class="middleland" id="3"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(4)" class="middleland" id="4"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(5)" class="middleland" id="5"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(6)" class="middleland" id="6"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(7)" class="middleland" id="7"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+            </div>
+            <!--Third Row-->
             <div class="hexrow even">
                 <div class="hex">
                     <div class="topland"></div>    <!-- T-->
-                    <div class="middleland"></div>  <!-- M-->
+                    <div onclick="click(8)" class="middleland" id="8"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class ="hex">
+                    <div class="topwater"></div>    <!-- T-->
+                    <div class="middlewater"></div>  <!-- M-->
+                    <div class="bottomwater"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topwater"></div>    <!-- T-->
+                    <div class="middlewater"></div>  <!-- M-->
+                    <div class="bottomwater"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(9)" class="middleland" id="9"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+            </div>
+            <!--Fourth Row-->
+            <div class="hexrow">
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(10)" class="middleland" id="10"></div>  <!-- M-->
                     <div class="bottomland"></div>  <!-- B-->
                 </div>
                 
                 <div class="hex">
                     <div class="topland"></div>    <!-- T-->
-                    <div class="middleland"></div>  <!-- M-->
+                    <div onclick="click(11)" class="middleland" id="11"></div>  <!-- M-->
                     <div class="bottomland"></div>  <!-- B-->
                 </div>
-            </div>
-            <div class="hexrow">
+                
                 <div class="hex">
+                    <div class="topwater"></div>    <!-- T-->
+                    <div class="middlewater"></div>  <!-- M-->
+                    <div class="bottomwater"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(12)" class="middleland" id="12"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(13)" class="middleland" id="13"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+            </div>
+            <!--Fifth Row-->
+            <div class="hexrow even">
+                <div class="hex">
+                    <div class="topland"></div>    <!-- T-->
+                    <div onclick="click(14)" class="middleland" id="14"></div>  <!-- M-->
+                    <div class="bottomland"></div>  <!-- B-->
+                </div>
+                
+                <div class ="hex">
                     <div class="topwater"></div>    <!-- T-->
                     <div class="middlewater"></div>  <!-- M-->
                     <div class="bottomwater"></div>  <!-- B-->
@@ -55,9 +151,10 @@
                 
                 <div class="hex">
                     <div class="topland"></div>    <!-- T-->
-                    <div class="middleland"></div>  <!-- M-->
+                    <div onclick="click(15)" class="middleland" id="15"></div>  <!-- M-->
                     <div class="bottomland"></div>  <!-- B-->
                 </div>
             </div>
+            
     </body>
 </html>

@@ -7,7 +7,6 @@
 }
 
 
-
 .hex .topland {
     width: 0;
     border-bottom: 30px solid #6C6;
@@ -15,10 +14,35 @@
     border-right: 52px solid transparent;
 }
 
+.highlightHex .topland {
+    opacity: 0.8;
+}
+
+.red .topland {
+    border-bottom-color: #c0392b;
+}
+
+.blue .topland {
+    border-bottom-color: #2980b9;
+}
+
 .hex .middleland {
     width: 104px;
     height: 60px;
     background: #6C6;
+    text-align: center;
+}
+
+.highlightHex .middleland {
+    opacity: 0.8;
+}
+
+.red .middleland {
+    background-color: #c0392b;
+}
+
+.blue .middleland {
+    background-color: #2980b9;
 }
 
 .hex .bottomland {
@@ -28,9 +52,21 @@
     border-right: 52px solid transparent;
 }
 
+.highlightHex .bottomland {
+    opacity: 0.8;
+}
+
+.red .bottomland {
+    border-top-color: #c0392b;
+}
+
+.blue .bottomland {
+    border-top-color: #2980b9;
+}
+
 .hex .topwater {
     width: 0;
-    border-bottom: 30px solid #66C;
+    border-bottom: 30px solid #2c3e50;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
@@ -38,12 +74,12 @@
 .hex .middlewater {
     width: 104px;
     height: 60px;
-    background: #66C;
+    background: #2c3e50;
 }
 
 .hex .bottomwater {
     width: 0;
-    border-top: 30px solid #66C;
+    border-top: 30px solid #2c3e50;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
